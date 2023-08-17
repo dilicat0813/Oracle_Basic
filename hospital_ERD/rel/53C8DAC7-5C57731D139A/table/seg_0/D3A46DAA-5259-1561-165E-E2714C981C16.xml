@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D3A46DAA-5259-1561-165E-E2714C981C16" name="환자">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:09:27 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="환자ID" id="6EBBC660-012B-6A3E-FEE6-EE3BBE3E3F4B">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:09:56 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="간호사ID" id="63D837C0-3684-D003-A8DC-E33206C60F71">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:09:56 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="의사ID" id="4770698A-A02A-2347-59B8-A88DFB38710C">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:09:56 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="환자성명" id="65291D90-371E-FE82-0942-3F76C950897B">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:16 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="환자성별" id="D5AFBD78-AFD6-5864-A8DC-77053B46CCF6">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:59 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주민번호" id="3BD55307-147C-835D-AC64-2B627AF04707">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:59 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="주소" id="51244BBE-B6C2-7FE0-2F33-0E67AF5E92E7">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:59 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="전화번호" id="40A79ABF-1506-B065-C579-99CDCDE21B27">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:59 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="이메일" id="16AB3E45-F42D-C466-9A21-82E1681DC7C2">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:59 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="직업" id="070BB430-8A97-DE30-E064-4595847AC805">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:10:59 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="의사_의사ID" id="4EFE022D-5EF7-7F29-0915-0F4FC0EE4456">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:13:41 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="878EA9C7-AD7D-74D6-CF89-A4F42F636CC6" referredColumn="63B587F4-CB37-A597-FE33-1EC54F35B4AD"/>
+</associations>
+</Column>
+<Column name="간호사_간호사ID" id="58779F98-1AC6-8379-5571-0567BEA989F4">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:16:19 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0CFDCA3-73D7-A431-C263-4D8452513493" referredColumn="06EDB0C2-6D9B-A004-FAF9-B233A28A1EA5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A3CAECC-3B26-18AE-E396-0575FAD80B5B" name="환자_PK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:09:56 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EBBC660-012B-6A3E-FEE6-EE3BBE3E3F4B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="755EE9B3-6BAC-C41F-8097-F25DB5076632" name="환자_의사_FK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:13:41 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4EFE022D-5EF7-7F29-0915-0F4FC0EE4456"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DA4DE85-C922-E0A9-ADEC-DC1FF5ED588A" name="환자_간호사_FK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 07:16:19 UTC</createdTime>
+<ownerDesignName>hospital_ERD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="58779F98-1AC6-8379-5571-0567BEA989F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
