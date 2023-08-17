@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB64FA9D-CF2E-FFDB-F8F4-B9BFBD6AF2AC" name="num">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 04:19:07 UTC</createdTime>
+<ownerDesignName>relation1</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num" id="E14B1FEB-A374-E158-6C3A-26D8689D827F">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 04:19:32 UTC</createdTime>
+<ownerDesignName>relation1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sale" id="5D711C8D-27BC-80D4-D597-12928CDFFB3C">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 04:19:51 UTC</createdTime>
+<ownerDesignName>relation1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>40</dataTypePrecision>
+<ownDataTypeParameters>,40,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poiint" id="9CD43348-9F36-B3D2-D44D-8098B42D3DE5">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 04:20:11 UTC</createdTime>
+<ownerDesignName>relation1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sample_id" id="B39BA855-4048-0CB2-296F-75A19867B6B9">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 04:20:29 UTC</createdTime>
+<ownerDesignName>relation1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E6F2F0F-7AA1-C553-4106-DA6208C6BD30" referredColumn="E593C803-3EE2-CCEB-4C3B-CA7A7C0145F3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="00D17149-1876-0A62-C99F-9DC389FFECF5" name="num_sample_FK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 04:20:51 UTC</createdTime>
+<ownerDesignName>relation1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B39BA855-4048-0CB2-296F-75A19867B6B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
