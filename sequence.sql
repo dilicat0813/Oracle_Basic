@@ -1,5 +1,5 @@
 ----------------------------
-sequence.sql 일단 만드시고
+--sequence.sql 일단 만드시고
 -------------------
 drop SEQUENCE SEQ_TEST;
 create SEQUENCE SEQ_TEST
@@ -9,7 +9,7 @@ minvalue 1
 maxvalue 9999
 cycle nocache;
 
-drop table emp_seq
+drop table emp_seq;
 create table emp_seq(
 id number,
 name varchar2(20),
@@ -46,7 +46,7 @@ maxvalue 1000
 nocache
 nocycle ;
 
-drop table emp_seq2
+drop table emp_seq2;
 create table emp_seq2(
 id number,
 name varchar2(20),
