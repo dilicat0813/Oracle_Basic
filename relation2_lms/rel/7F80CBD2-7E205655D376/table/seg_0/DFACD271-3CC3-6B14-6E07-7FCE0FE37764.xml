@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DFACD271-3CC3-6B14-6E07-7FCE0FE37764" name="학과">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:30:46 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="학과번호" id="ECC5D443-7167-AAEE-F454-D1F736808DA7">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:31:03 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="학과명" id="A4FBF92E-DAB1-C490-86B0-123EBD01C756">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:31:22 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0801D77C-5D04-7871-0DAD-59B8545DCDC2" name="학과_PK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:31:03 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ECC5D443-7167-AAEE-F454-D1F736808DA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

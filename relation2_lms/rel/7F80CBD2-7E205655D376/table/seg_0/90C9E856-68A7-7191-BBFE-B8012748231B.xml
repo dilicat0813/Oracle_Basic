@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90C9E856-68A7-7191-BBFE-B8012748231B" name="교수">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:28:36 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="교수번호" id="9A7EE2D0-516A-250F-3F5D-0DA3B27866D4">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:28:50 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="학과번호" id="FC4135FA-0F34-ADCF-BD3B-02A42720D3C0">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:29:01 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강좌번호" id="8E3C55D6-0DE0-3874-55BE-6B36FED58976">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:29:14 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="교수이름" id="502EAF76-AEDF-CB08-18BA-BC19D4E88C2B">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:29:30 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="학과_학과번호" id="2E184DA0-F867-E0FF-9373-122C7ADE8A59">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:32:56 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="17A517DC-F3B5-2535-7331-9796531CD82A" referredColumn="ECC5D443-7167-AAEE-F454-D1F736808DA7"/>
+</associations>
+</Column>
+<Column name="강좌_강좌번호" id="05107CF6-0208-F894-F10F-ADF1FF16EEC2">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:47:17 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71C721FE-70AD-1A7C-6F67-6084A2B70C35" referredColumn="2CAB54E9-3EDA-EAA3-97B5-23FF859EA97E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="32CFD896-4B10-712E-EE4C-73BF56FF325C" name="교수_PK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:28:50 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A7EE2D0-516A-250F-3F5D-0DA3B27866D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8E088808-1202-974D-1527-8A057FF1CB19" name="교수_학과_FK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:32:56 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2E184DA0-F867-E0FF-9373-122C7ADE8A59"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9BB834D-4DD8-79DA-2F7B-F913F940CCD5" name="교수_강좌_FK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:47:17 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05107CF6-0208-F894-F10F-ADF1FF16EEC2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

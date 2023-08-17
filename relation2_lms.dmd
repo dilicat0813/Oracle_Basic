@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="relation2_lms" id="2017C741-54DB-41BE-0A20-9BCAA0466403" version="3.5">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:21:52 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>2017C741-54DB-41BE-0A20-9BCAA0466403</designId>
+</OSDM_Design>

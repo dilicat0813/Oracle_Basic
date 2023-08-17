@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1B15CB97-69E3-15CF-D7BB-9CCEEB485879" name="강좌">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:41:29 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<ordsAlias>table_6</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="강좌번호" id="2CAB54E9-3EDA-EAA3-97B5-23FF859EA97E">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:41:57 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="강좌명" id="7C1318F1-281D-7B1A-C742-6B3EC976397D">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:42:19 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40 CHAR</dataTypeSize>
+<ownDataTypeParameters>40 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="담당교수번호" id="5312F266-2682-FA4F-078C-618D6C31FE59">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:42:51 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="486DA60F-595D-A32A-1D68-2E0C0270970E" name="강좌_PK">
+<createdBy>mkh08</createdBy>
+<createdTime>2023-08-17 06:43:21 UTC</createdTime>
+<ownerDesignName>relation2_lms</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CAB54E9-3EDA-EAA3-97B5-23FF859EA97E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

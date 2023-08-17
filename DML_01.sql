@@ -1,5 +1,5 @@
 -- ORA-01950: 테이블스페이스 'USERS'에 대한 권한이 없습니다 에러발생 (무료버전의 문제)
-alter user madang default tablespace USERS quota unlimited on USERS;
+alter user guest default tablespace USERS quota unlimited on USERS;
 
 --DML(insert into) Book
 insert into book(bookid, bookname, publisher, price) values(1, '축구의 역사', '굿스포츠', 13000);
